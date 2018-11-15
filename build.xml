@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="D:\siddhia\workspace\GitProject" default="build" name="GitProject">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../eclipse/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="GitProject.classpath">
+    	 <pathelement location="bin"/>
+    	    </path>
+    		<target name="build">
+    		        <echo message="${ant.project.name}: ${ant.file}"/>
+    		    </target>
+    	    
+    	</project>
